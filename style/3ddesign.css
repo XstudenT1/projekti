@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,800;1,700&family=Raleway:wght@100&family=Roboto+Condensed:ital,wght@0,300;1,300&family=Roboto:wght@100;300;400;500&family=Spline+Sans:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+:root{
+    --clr--dark: #333333;
+    --clr--light: #DDDCDC;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+    z-index: 1000;
+    background: var(--clr--dark);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} 
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.navbar ul li{
+    font-weight: 900;
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navbar ul li:after{
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -5px;
+    transition: 250ms;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+    opacity: 0.7;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: lighter;
+    transition: 250ms;
+}
+
+.navbar ul li a:hover{
+    opacity: 1;
+}
+
+.three-Ddesign{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+    background: var(--clr--light);
+}
+
+.three-Ddesign img{
+    width: 24%;
+    margin-left: 2%;
+}
+
+.three-Ddesign .text{
+    max-width: 900px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.three-Ddesign p{
+    margin: 30px 0;
+}
+
+.three2-Ddesign{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 31%;
+    background: var(--clr--dark);
+}
+
+.three2-Ddesign img{
+    width: 20%;
+    margin-left: 3.2%;
+}
+
+.three2-Ddesign .text{
+    color: #fff;
+    margin-left: 3.5%;
+    margin-top: 2.3%;
+}
+
+.three2-Ddesign p{
+    margin: 30px 0;
+}
+.threeD-cad{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 57.7%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    background: var(--clr--light);
+}
+
+.threeD-cad img{
+    width: 15%;
+    margin-left: 5.5%;
+}
+
+.threeD-cad .text{
+    margin-left: 7%;
+    margin-top: 1%;
+    
+}
+
+.threeD-cad p{
+    margin: 30px 0;
+}
+
+.threeD-Modeling{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 84.4%;
+    background: var(--clr--dark);
+}
+
+.threeD-Modeling img{
+    width: 15%;
+    margin-left: 5.4%;
+}
+
+.threeD-Modeling .text{
+    color: #fff;
+    margin-left: 6.6%;
+    margin-top: 1%;
+}
+.threeD-Modeling p{
+    margin: 30px 0;
+}
+
+.three-Dvisual-effects{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 111%;
+    background: var(--clr--light);
+}
+
+.three-Dvisual-effects img{
+    width: 15%;
+    margin-left: 5%;
+}
+
+.three-Dvisual-effects .text{
+    margin-left: 6.8%;
+    margin-top: 1.5%;
+}
+.three-Dvisual-effects p{
+    margin: 30px 0;
+}
+
+.three-Dvirtual-reality{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 137.7%;
+    background: var(--clr--dark);
+}
+
+.three-Dvirtual-reality img{
+    width: 15%;
+    margin-left: 4.7%;
+}
+
+.three-Dvirtual-reality .text{
+    color: #fff;
+    margin-left: 7%;
+    margin-top: 1.5%;
+}
+.three-Dvirtual-reality p{
+    margin: 30px 0;
+}
+
+.three-Dgenerative-design{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    margin-top: 164.4%;
+    background: var(--clr--light);
+}
+
+.three-Dgenerative-design img{
+    width: 15%;
+    margin-left: 4.5%;
+}
+
+.three-Dgenerative-design .text{
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.three-Dgenerative-design p{
+    margin: 30px 0;
+}
